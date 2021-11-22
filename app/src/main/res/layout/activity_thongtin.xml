@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen"
+    tools:context=".Thongtin">
+
+
+    <Button
+        android:layout_width="369dp"
+        android:layout_height="97dp"
+        android:text="thông tin trang cá nhân"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#FFFDFD"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <Button
+        android:layout_width="303dp"
+        android:layout_height="66dp"
+        android:text="Các môn đã tham gia "
+        android:id="@+id/MonHoc"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#8BC34A"
+        app:iconTint="#F6F4F4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/ThongTin"
+        android:layout_width="303dp"
+        android:layout_height="66dp"
+        android:background="#8BC34A"
+        android:text="Thành tích cá nhân"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#8BC34A"
+        app:iconTint="#FDFDFD"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="353dp" />
+
+    <Button
+        android:id="@+id/ChinhSua"
+        android:layout_width="303dp"
+        android:layout_height="66dp"
+        android:text="Chỉnh sửa trang cá nhân"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#8BC34A"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="303dp"
+        android:layout_height="66dp"
+        android:text="Đăng xuất "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#8BC34A"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="582dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
